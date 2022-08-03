@@ -2,37 +2,48 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(99, 102, 135) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather_card {
+  background-color: #fff;
+  width: 35%;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.input_type {
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+}   
+.parent_heading_section {
+  margin: 60px 0;
+}
+.parent_heading_section h1 {
+  color: #fff;
+  font-weight: 800;
+}
+.main_weather_parent button {
+      padding: 10px 30px;
+      border-radius: 5px;
+      letter-spacing: 3px;
+      background-color: #24A0ED;
+      color: #fff;
+      border: none;
+}
+.longitude_latitude_work {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.longitude_latitude_work .label {
+  font-size: 18px;
+  font-weight: 600;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temperature_current h4 {
+  padding: 30px 0;
 }
